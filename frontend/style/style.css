@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.container {
+    text-align: center;
+    /* padding: 20px;
+    margin: 10px; */
+}
+#url-input {
+    width: 600px;
+    padding: 10px;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    outline: none;
+    margin-bottom: 10px;
+}
+#submit{
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.container > h3{
+    padding: 20px;
+}
+
+.text-response {
+    height: 145px;
+    width: 750px;
+    margin-top: 30px;
+    align-items: center;
+    text-align: center;
+    margin-top: 40px;
+    color: black;
+}
